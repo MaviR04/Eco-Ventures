@@ -82,6 +82,19 @@ npm run dev
 
 > This typically opens the frontend at `http://localhost:5173`. The frontend automatically communicates with the backend at `http://localhost:3000`.
 
+### 7. Test API
+    
+You can Curl or use Postman on the following routes to test the API
+| HTTP Method | Endpoint| Purpose |
+| ----- | ----- | ----- |
+**GET** | localhost:3000/api/tours | Fetch all tours |
+**GET** | localhost:3000/api/tours/1 | Fetch tour with ID of 1 |
+**POST** | localhost:3000/api/tours | Create a new Tour |
+**POST** | localhost:3000/api/bookings/1 | Create a New Booking for tour ID of 1 **(must be logged in)** |
+
+
+
+
 ## Project Notes
 
 ### Image Handling
