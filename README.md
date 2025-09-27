@@ -17,7 +17,7 @@ This is a full-stack application designed for managing and booking eco-friendly 
 Clone the project to your local machine and navigate into the directory:
 
 ```
-git clone <your-repo-url>
+git clone https://github.com/MaviR04/Eco-Ventures.git
 cd eco-venture
 
 ```
